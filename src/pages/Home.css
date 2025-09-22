@@ -1,0 +1,61 @@
+/* Home.css */
+.home-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+}
+
+.blog-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.blog-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.blog-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pagination-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination-button:enabled {
+  background: #007bff;
+}
+
+.pagination-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-button.prev {
+  margin-right: 0.5rem;
+}
+
+.pagination-button.next {
+  margin-left: 0.5rem;
+}
+
+.page-info {
+  margin: 0 1rem;
+}
