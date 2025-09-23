@@ -1,12 +1,6 @@
 import axios from 'axios';
 
-// // Base URL for backend
-
-// const API_BASE_URL = 'http://localhost:8089/api,http://10.32.0.26:8089/api';
-const API_BASE_URL =
-  window.location.hostname === 'localhost'
-    ? 'http://localhost:8089/api'
-    : 'http://10.32.0.26:8089/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8089/api';
 
 
 // Create Axios instance
